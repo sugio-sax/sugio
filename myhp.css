@@ -1,0 +1,147 @@
+body {
+    background: #D8BfD8;
+
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222;
+    font-weight: 600;
+
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #0083e8;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+
+.fas {
+    font-weight: 400;
+
+}
+.hobby1-sax{
+    position: absolute;
+    bottom:5px;
+    left:60px;
+    font-size:80px;
+    z-index:9;
+    color:#1E90FF;
+    font-family:fantasy;
+}
+
+.hobby1{
+    margin:0 auto;
+}
+.otaku {
+   text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top:60px;
+    margin-bottom: 100px;
+    border-top: 1px solid #8B0000;
+    border-bottom:1px solid #8B0000;
+}
+
+.otakup{
+    padding-bottom: 40px;
+}
+
+.hobby1-sen {
+    text-align: center;
+}
+
+
+.hobby1-img img{
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    position: relative;
+    z-index: 8;
+}
+
+header {
+    width: 100%;
+    height: 130px;
+    background-color: firebrick;
+    text-align: center;
+    letter-spacing: 27px;
+    font-size: 32px;
+    line-height:65px;
+    padding: auto;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    
+}
+.twi{
+float:left;
+    margin-left:530px;
+    
+    
+}
+.twi a:hober{
+    cursor: default;
+    
+}
+.ba{
+    float:right;
+    margin-right: 530px;
+    
+}
+.sns{
+    margin-top:10px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #8B0000;
+}
+form{
+    margin-top:30px;  
+    
+}
+.name{
+    padding:20px;
+    
+}
+.mail{
+    padding:20px;
+}
+.msg{
+    padding:20px;
+}
+.sns p{
+   text-align:center;
+padding-top: 228px;
+}
